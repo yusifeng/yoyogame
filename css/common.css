@@ -1,0 +1,130 @@
+/*公共头开始*/
+.public-header{
+	height: 40px;
+	background: #121212;
+	border-bottom: 1px solid #121212;
+}
+.public-header-box{
+
+}
+.public-header-landr{
+	float: right;
+	margin-right: 15px;
+}
+.public-header-index{
+	float: left;
+}
+.public-header-index-text{
+	float:left;
+	font-size:14px;
+	font-family: "microsoft yahei";
+	line-height: 40px;
+	vertical-align: middle;
+}
+.public-header-index-logo{
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-top: 12px;
+	margin-right: 5px;
+	background: url("../images/public-header-index-logo.gif") no-repeat;
+}
+.public-header-login-logo{
+	float:left;
+	width: 16px;
+	height: 18px;
+	margin-right: 12px;
+	margin-top: 11px;
+	background: url(../images/public-header-login-logo.gif) no-repeat;
+}
+.public-header-login{
+	float:left;
+	font-size:14px;
+	font-family: "microsoft yahei";
+	line-height: 40px;
+}
+.public-header-landr-line{
+	float: left;
+	padding:0 14px;
+	font-size: 14px;
+	color:#fff;
+	line-height: 40px;
+}
+.public-header-register{
+	float:left;
+	font-size:14px;
+	font-family: "microsoft yahei";
+	line-height: 40px;
+}
+/*公共头结束*/
+
+/*公共search开始*/
+.public-search{
+	height: 82px;
+	background: #2b2a2b;
+	border-bottom: 1px solid #2b2a2b;
+}
+.public-search-logo{
+	float: left;
+	width: 312px;
+	height: 82px;
+	background: url(../images/public-search-logo.gif) no-repeat 2px 20px;
+}
+.public-search-bar{
+	float: left;
+}
+.public-search-bar ul{
+	width: 498px;
+	margin-left: -24px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.public-search-bar ul li{
+	float: left;
+	width: 82px;
+	height: 21px;
+	text-align: center;
+	border-right: 1px solid #0d0d0d;
+}
+.public-search-bar ul li .active{
+	color:#0099ff;
+}
+.public-search-search{
+	float: right;
+	width: 194px;
+	height: 32px;
+	margin-top: 26px;
+	background: #fff;
+}
+.public-search-search-input{
+	width: 191px;
+	height: 32px;
+	padding-left: 3px;
+	line-height: 32px;
+	border:none;
+	outline:none;
+	background: url("../images/public-search-search-input.gif") no-repeat 160px 5px;
+}
+/*公共search结束*/
+
+/*公共尾开始*/
+.public-footer{
+	height: 76px;
+	padding-top: 30px;
+	text-align: center;
+	background: #292929;
+}
+.public-footer-links{
+	position: relative;
+	color:#585858;
+}
+.public-footer-links a{
+	display: inline-block;
+	margin:0 10px;
+}
+.public-footer-copyright{
+	margin-top:10px;
+	font-size:14px;
+	color:#585858;
+}
+/*公共尾结束*/

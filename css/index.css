@@ -1,0 +1,731 @@
+/*首页hot开始*/
+.index-hot{
+	width: 978px;
+	height: 214px;
+	margin-top: 16px !important;
+	margin-bottom: 20px !important;
+	border: 1px solid #dfdfdf;
+}
+.index-hot-sort{
+	float: left;
+	width: 114px;
+	height: 214px;
+	background: #eee;
+}
+.index-hot-sort ul li{
+	width: 113px;
+	height: 71px;
+	border-right: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-hot-sort ul li a{
+	font-size:18px;
+	line-height: 70px;
+	text-align: center;
+}
+.index-hot-sort ul li a:hover{
+	font-weight: 700;
+	line-height: 67px;
+	border-right: none;
+	border-bottom: 4px solid #288bff;
+}
+.index-hot-sort ul li .active{
+	font-weight: 700;
+	line-height: 67px;
+	border-right: none;
+	border-bottom: 4px solid #288bff;
+}
+.index-hot-icon{
+	float: left;
+	width: 866px;
+	height: 116px;
+	margin-top:20px;
+}
+.index-hot-noicon{
+	float: left;
+	width: 820px;
+	height: 77px;
+	margin-top: 1px;
+	margin-left:26px;
+	border-top: 1px dashed #c5c5c5;
+}
+.index-hot-noicon ul{
+	width: 959px;
+	height: 77px;
+	margin-left:-23px;
+	overflow: hidden;
+}
+.index-hot-noicon ul li{
+	float: left;
+	width: 95px;
+	height: 14px;
+	margin-top: 16px;
+	text-align: center;
+	border-right:1px solid #c5c5c5;
+}
+.index-hot-noicon ul li a{
+	font-size:12px;
+	line-height: 14px
+}
+.index-hot-noicon ul li a:hover{
+	color:red;
+}
+.index-hot-icon-item{
+	float: left;
+	width: 107px;
+	height: 136px;
+}
+.index-hot-icon-item-img{
+	margin-left: 26px;
+	border-radius: 12px;
+}
+.index-hot-icon-item-name{
+	margin-top: 7px;
+	padding-left: 40px;
+	font-size: 12px;
+	line-height: 12px;
+}
+/*首页hot结束*/
+
+/*首页nesw开始*/
+.index-news{
+	position: relative;
+}
+.index-news-headline{
+	float: left;
+	width: 428px;
+	height: 546px;
+}
+.index-news-headline-bignews{
+	height: 190px;
+}
+.index-news-headline-bignews-title1{
+	margin-left:43px;
+	margin-top: 27px;
+	font-size:20px;
+	color: #555;
+}
+.index-news-headline-bignews-title2{
+	margin-top: 12px;
+	margin-left:43px;
+	font-size:20px;
+	color: #555;
+}
+.index-news-headline-bignews p{
+	padding:10px 5px 0 5px;
+	font-size:14px;
+	color:#666;
+	line-height: 26px;
+}
+.index-news-headline-littlenews1,.index-news-headline-littlenews2{
+	height: 168px;
+	border-top: 1px dashed #c5c5c5; 
+	border-bottom: 1px dashed #c5c5c5; 
+}
+.index-news-headline-littlenews2{
+	border-top: none;
+	border-bottom: none;
+}
+.index-news-headline-littlenews1 ul{
+	width: 427px;
+}
+.index-news-headline-littlenews1 ul li{
+	margin-top: 10px;
+	padding-left:6px;
+	line-height: 30px;
+}
+.index-news-headline-littlenews1-dyn{
+	float: left;
+	margin-right: 16px;
+	font-size:16px;
+	color:#4093fe;
+}
+.index-news-headline-littlenews1-con{
+	float: left;
+	width: 325px;
+	font-size:16px;
+	color:#484848;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.index-news-headline-littlenews1-time{
+	float: right;
+	font-size:14px;
+	color:#d4d4d4;
+}
+.index-news-headline-littlenews2{
+	height: 168px;
+}
+.index-news-headline-bignews-ltlogo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 67px;
+	height: 64px;
+	background: url("../images/index-news-headline-bignews-ltlogo.gif") no-repeat;
+}
+.index-news-banner{
+	float: right;
+	width: 532px;
+	height: 540px;
+}
+.index-news-banner-img{
+	position: relative;
+}
+.index-news-banner-img-blackbar{
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	width: 530px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+}
+.index-news-banner-img-blackbar a{
+	float: left;
+	padding-left: 12px;
+	color: #fff;
+	line-height: 40px;
+}
+.index-news-banner-img-blackbar span{
+	float: right;
+	height: 40px;
+	margin-right: 18px;
+}
+.index-news-banner-img-blackbar span a{	
+	display: inline-block;
+	width: 26px;
+	height: 3px;
+	margin-left: 6px;
+	margin-top:19px;
+	background: #fff;
+}
+.index-news-banner-img-blackbar span .active{
+	background-color:#34abff;
+}
+.index-news-banner-img-blackbar span a:hover{
+	background-color:#34abff;
+}
+.index-news-banner-news1{
+	width: 532px;
+	height: 115px;
+	margin-top: -3px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-bottom: 1px dashed #c5c5c5;
+}
+.index-news-banner-news2{
+	width: 532px;
+	height: 110px;
+	margin-top: -3px;
+	padding-top:16px;
+	padding-bottom:16px;
+	border-bottom: 1px dashed #c5c5c5;
+}
+.index-news-banner-news1 a{
+	float: left;
+	width: 215px;
+	height: 108px;
+}
+.index-news-banner-news1-title{
+	float: left;
+}
+.index-news-banner-news1-con{
+	float: left;
+	width: 315px;
+	height: 74px;
+	margin-top: 15px;
+	font-size:14px;
+	color:#737373;
+	line-height: 26px;
+}
+.index-news-banner-news1-con a{
+	float: right;
+}
+.index-news-banner-news1-title{
+	height: 20px;
+	font-size:18px;
+	color:#333;
+	line-height: 20px;
+}
+/*首页nesw结束*/
+
+/*中间上广告开始*/
+/*中间上广告结束*/
+
+/*游戏助手开始*/
+.index-ast{
+}
+.index-ast-title a{
+	color:#111;
+	border-bottom: 3px solid #288bff;
+}
+.index-ast-dispaly ul{
+	width: 1020px;
+	margin-top:20px; 
+	overflow: hidden;
+}
+.index-ast-dispaly ul li{
+	float: left;
+	width: 255px;
+	height: 114px;
+}
+.index-ast-dispaly ul li img{
+	float: left;
+	border-radius: 15px;
+}
+.index-ast-dispaly-title{
+	float: left;
+	margin-bottom: 7px;
+	margin-left: 13px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.index-ast-dispaly-merit{
+	display: block;
+	float: left;
+	width: 132px;
+	height: 16px;
+	margin-bottom: 14px;
+	margin-left: 13px;
+	font-size: 14px;
+}
+.index-ast-dispaly-dl{
+	float: left;
+	width: 44px;
+	height: 20px;
+	color:#fff;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 13px;
+	background: #288bff;
+}
+/*游戏助手结束*/
+
+/*特色栏目开始*/
+.index-special{
+	height: 500px;
+}
+.index-special-column{
+	float: left;
+	width: 685px;
+	height: 500px;
+}
+.index-special-column-gamebar{
+	width: 685px;
+	height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-special-column-title{
+	float: left;
+	font-size:18px;
+	line-height: 38px;
+	border-bottom: 3px solid #288bff;
+}
+.index-special-column-title a{
+	margin-left: 2px;
+	color:#111;
+}
+.index-special-column-dandg{
+	float: right;
+}
+.index-special-column-day{
+	float: left;
+	font-size: 14px;
+	line-height: 40px;
+	color:#585858;
+}
+.index-special-column-line{
+	float: left;
+	padding:0 10px;
+	font-size: 14px;
+	color:#585858;
+	line-height: 40px;
+}
+.index-special-column-good{
+	float: left;
+	font-size: 14px;
+	color:#585858;
+	line-height: 40px;
+}
+.index-special-column-con{
+	height: 80px;
+	padding-top: 18px;
+	padding-bottom: 16px;
+	padding-left: 2px;
+	border-bottom: 1px dashed #c5c5c5;
+}
+.index-special-column-con-icon{
+	float: left;
+	margin-right: 25px;
+
+}
+.index-special-column-con-title{
+	float: left;
+	margin-bottom: 7px;
+	color: #111;
+}
+.index-special-column-con-summary{
+	float: left;
+	width: 490px;
+	font-size:14px;
+	color:#666;
+	line-height: 26px;
+}
+.index-special-forum{
+	float: right;
+	width: 280px;
+	height: 500px;
+}
+.index-special-forum-gamebar{
+	height: 40px;
+	width: 280px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-special-forum-gamebar-title{
+	float: left;
+	font-size:18px;
+	line-height: 40px;
+}
+.index-special-forum-gamebar-title a{
+	color:#111;
+}
+.index-special-forum-gamebar-gamemore{
+	float: right;
+	font-size:14px;
+	color:#585858;
+	line-height: 40px;
+}
+.index-special-forum-card{
+	width: 278px;
+	height: 148px;
+	padding-top:22px;
+	padding-bottom: 4px;
+	padding-left: 2px;
+}
+.index-special-forum-card ul{
+	width: 297px;
+}
+.index-special-forum-card ul li{
+	position: relative;
+	float: left;
+	width: 99px;
+	height: 148px;
+}
+.index-special-forum-card-icon{
+	position: relative;
+
+}
+.index-special-forum-card-icon-img{
+
+}
+.index-special-forum-card-icon-text{
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	width: 80px;
+	height: 20px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	background: rgba(0,0,0,0.6);
+
+}
+.index-special-forum-title{
+	width: 84px;
+	margin-top: 6px;
+	font-size: 12px;
+	color: #666;
+}
+.index-special-forum-going{
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	width: 80px;
+	height: 20px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	background: #288bff;
+}
+.index-special-forum-reward{
+
+}
+.index-special-forum-reward ul{
+
+}
+.index-special-forum-reward ul li{
+	width: 275px;
+	height: 40px;
+	border-bottom: 1px dashed #c5c5c5;
+}
+.index-special-forum-reward-text{
+	float: left;
+	font-size: 14px;
+	color: #484848;
+	line-height: 39px;
+}
+.index-special-forum-reward-reward{
+	float: right;
+	width: 44px;
+	height: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	color:#fff;
+	line-height: 20px;
+	text-align: center;
+	background: #fe5a5a;
+}
+/*特色栏目结束*/
+
+/*游戏攻略开始*/
+.index-stg{
+	margin-top: 5px !important;
+}
+.index-stg-strategy{
+	float: left;
+	width: 685px;
+	height: 533px;
+}
+.index-stg-strategy-gamebar{
+	width: 685px;
+	height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-stg-strategy-gamebar-stg{
+	float: left;
+	font-size:18px;
+	color:#585858;
+	line-height: 38px;
+	border-bottom: 3px solid #288bff;
+}
+.index-stg-strategy-gamebar-moregame{
+	float: right;
+	font-size:14px;
+	color:#585858;
+	line-height: 40px;
+}
+.index-stg-strategy-gamelogo{
+	float: left;
+	width: 290px;
+	padding-top: 20px;
+}
+.index-stg-strategy-gamelogo-kit{
+	position: relative;
+	margin-bottom: 12px;
+	margin-left: 2px;
+}
+.index-stg-strategy-gamelogo-kit-name{
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	width: 265px;
+	height: 20px;
+	color:#fff;
+	line-height: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+}
+.index-stg-strategy-value{
+	float: right;
+}
+.index-stg-strategy-value-main{
+	width: 394px;
+	height: 95px;
+	margin-top: 17px;
+	border-bottom: 1px dashed #c5c5c5;
+}
+
+.index-stg-strategy-value-main h3{
+	margin-bottom: 9px;
+	font-size: 20px;
+	color:#288bff;
+}
+.index-stg-strategy-value-main p{
+	width: 354px;
+	font-size:14px;
+	color:#959595;
+	line-height: 25px;
+}
+.index-stg-strategy-value-aff{
+	float: right;
+	width: 394px;
+	height: 396px;
+}
+.index-stg-strategy-value-aff-news1{
+	height: 192px;
+	padding-top: 16px;
+	border-bottom: 1px dashed #c5c5c5; 
+}
+.index-stg-strategy-value-aff-news2{
+	height: 153px;
+	padding-top: 16px;
+}
+.index-stg-strategy-value-aff-news ul{
+	width: 393px;
+	height: 31px;
+}
+.index-stg-strategy-value-aff-news ul li{
+	height: 31px;
+}
+.index-stg-strategy-value-aff-news-dyn{
+	float: left;
+	margin-right: 16px;
+	font-size:16px;
+	color:#4093fe;
+	line-height: 31px;
+}
+.index-stg-strategy-value-aff-news-con{
+	float: left;
+	width: 300px;
+	font-size:16px;
+	color:#484848;
+	line-height: 31px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.index-stg-strategy-value-aff-news-time{
+	float: right;
+	font-size:14px;
+	color:#d4d4d4;
+	line-height: 31px;
+}
+.index-stg-gift{
+	float: right;
+	width: 280px;
+	height: 500px;
+}
+
+/*游戏攻略结束*/
+
+/*游戏中间广告开始*/
+.index-midbanner{
+	margin-top: 18px !important;
+	margin-bottom: 25px !important;
+}
+/*游戏中间广告开始*/
+
+/*游戏推荐开始*/
+.index-recom{
+	height: 421px;
+	border-bottom: 1px solid #f6f6f6;
+}
+.index-recom-sort{
+	width: 979px;
+	height: 38px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-recom-sort ul li{
+	float: left;
+	line-height: 38px;
+}
+.index-recom-sort ul li a{
+	display: inline-block;
+	width: 92px;;
+	font-size: 18px;
+	color:#666;
+	text-align: center;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-recom-sort ul li .active,.index-recom-sort ul li a:hover{
+	width: 90px;
+	height: 35px;
+	border-top:3px solid #288bff;
+	border-right:1px solid #dfdfdf;
+	border-bottom: 1px solid #fff;
+	border-left:1px solid #dfdfdf;
+	font-weight: 700px;
+	color:#666;
+}
+.index-recom-gamegroup{
+	width: 985px;
+	height: 367px;
+	margin-top: 20px !important;
+}
+.index-recom-gamegroup ul {
+	width: 1024px;
+	overflow: hidden;
+}
+.index-recom-gamegroup ul li{
+	float: left;
+	width: 82px;
+	height: 122px;
+	margin-right: 46px;
+}
+.index-recom-gamegroup ul li a img{
+	width: 81px;
+	height: 81px;
+	border-radius: 14px;
+}
+.index-recom-game-name{
+	margin-top:3px;
+	font-size: 13px;
+	color:#2b2b2b;
+	text-align: center;
+}
+/*游戏推荐结束*/
+
+/*游戏合集开始*/
+.index-pack{
+	height: 500px;
+	margin-top: 16px !important;
+	margin-bottom: 70px !important;
+}
+.index-pack-gamebar,.index-ast-gamebar{
+	height: 38px;
+	width: 980px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.index-pack-gamepack,.index-ast-title{
+	float: left;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 38px;
+}
+.index-pack-gamemore,.index-ast-gamemore{
+	float: right;
+	font-size:14px;
+	color:#585858;
+	line-height: 40px;
+}
+.index-pack-gamemore:hover{
+	color:red;
+}
+.index-pack-gameicongroup {
+
+}
+.index-pack-gameicongroup ul{
+	overflow: hidden;
+	width: 1005px;
+	margin-top: 20px;
+}
+.index-pack-gameicongroup ul li{
+	float: left;
+	height: 230px;
+	width: 201px;
+}
+.index-pack-gameicon{
+	position: relative;
+}
+.index-pack-gameicon-num{
+	position: absolute;
+	right: 26px;
+	bottom: 3px;
+	width: 60px;
+	height: 30px;
+	background: #000;
+	font-size:15px;
+	color: #f4f4f4;
+	line-height: 30px;
+	text-align: center;
+}
+.index-pack-gameicon-text{
+	display: block;
+	margin-top:7px;
+	font-size: 16px;
+	color:#6b6b6b;
+}
+/*游戏合集结束
